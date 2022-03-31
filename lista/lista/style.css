@@ -1,0 +1,30 @@
+#tarefas{
+    background-color: #f3f4f6;
+    border: 5px;
+    padding: 15px;
+    margin: 15px 20px;
+    width: 50%;
+    border-radius: 15px;
+}
+#btnTarefa{
+    background-color: #10b981;
+    padding: 5px;
+    font-weight: bold;
+    border: 2px;
+    border-radius: 5px;
+}
+#adicionarTarefa{
+    margin: 15px 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.apagar{
+    background-color: #dc2626;
+    border-radius: 5px;
+    border: 2px;
+    font-weight: bold ;
+    border-radius: 5px;
+}
+li{
+    padding: 8px;
+}
