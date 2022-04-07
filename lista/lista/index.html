@@ -8,24 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div>
-            <input id="adicionarTarefa" type="text">
-            <button id="btnTarefa">Adicionar Tarefa</button>
+    <main class="container">
+        <h1>Minha lista de compras</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Adicione um item na lista de compras" id="new-item" class="new-item">
+            <button onclick="addItem()" id="btnAdd">Adicionar</button>
         </div>
-        <div id="tarefas">
-            <ul>
-                <li>Tarefa 1 <button class="apagar">X</button></li>
-            
-                <li>Tarefa 2 <button class="apagar">X</button></li>
-            
-                <li>Tarefa 3 <button class="apagar">X</button></li>
-            
-                <li>Tarefa 4 <button class="apagar">X</button></li>
-            
-                <li>Tarefa 5 <button class="apagar">X</button></li>
-            </ul>
-        </div>
-    </main>
+        <ul id="lista-compra">
+            <li class="removed"><label>Cenoura</label></li>
+            <li><label><input type="text">Pera</label></li>
+            <li><label><input type="text">Pera</label></li>
+            <li class="removed"><label>Pera</label></li>
+            <li><label><input type="text">Pera</label></li>
+            <li><label><input type="text">Pera</label></li>
+        </ul>
+        <div id="lista"></div>
+      </main>
+    <script src="main.js"></script>
 </body>
 </html>
