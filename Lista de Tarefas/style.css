@@ -1,0 +1,25 @@
+.container{
+    width: 50%;
+    margin: 20px auto 0px auto;
+    background-color: #171717;
+    padding: 20px;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 50px;
+    
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+body{
+    background-color:#000;
+    color: #fff;
+}
+ul li{
+    list-style-type: none;
+}
+#btnAdd{
+    background-color: #16a34a;
+    margin: 8px;
+}
